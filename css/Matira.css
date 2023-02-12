@@ -1,0 +1,8 @@
+body, html {
+    background-image: url("../images/Matira\ Beeach.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
