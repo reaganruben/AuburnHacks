@@ -18,13 +18,34 @@ button
 }
 .nav
 {
+    color:rgb(167, 241, 243)
+    border-color: white;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    color:rgb(167, 241, 243)
 }
 body
 {
-    color: white;
+    color: black;
     font-family:Arial, Helvetica, sans-serif;
+}
+.row
+{
+    display: flex;
+}
+.column
+{
+    float: left;
+}
+h1
+{
+    background-color: rgb(255, 226, 157);
+}
+h3
+{
+    background-color: rgb(255, 226, 157);
+}
+p
+{
+    background-color: rgb(255, 226, 157);
 }
