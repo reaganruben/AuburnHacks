@@ -1,19 +1,30 @@
-button{
-    color: white;
-    background: rgb(89, 113, 244);
-    text-align: center;
-    padding: 20px;
-    margin: auto;
-    border-radius: 50%;
-    width: 250px;
+body, html
+{
+    background-image: url("../images/Matira\ Beach.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center center;
 }
-
-.nav{
+button
+{
+    color: black;
+    background: rgb(150, 244, 255);
+    text-align: center;
+    width: 250px;
+    margin: auto;
+    padding: 20px;
+    border-radius: 50%;
+}
+.nav
+{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    color:rgb(167, 241, 243)
 }
-
-body{
-font-family:Arial, Helvetica, sans-serif;
+body
+{
+    color: white;
+    font-family:Arial, Helvetica, sans-serif;
 }
